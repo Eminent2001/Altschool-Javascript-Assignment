@@ -19,7 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
     sum += arrayOfNumbers[i];
   }
   return sum
-    // return arrayOfNumbers.length;
+    return arrayOfNumbers.length;
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
@@ -39,8 +39,7 @@ function countEvenNumbers(arrayOfNumbers) {
       evenNumbers += arrayOfNumbers[i];
     }
     return evenNumbers
-  }
-    return arrayOfNumbers.length;
+      return arrayOfNumbers.length;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
